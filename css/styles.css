@@ -45,14 +45,15 @@ ul, ol {
     color: #2e2f42;
 }
 
-.address-page {}
+.address-page {
+    font-style: normal
+}
 
 .address-list {}
 
 .address-item {}
 
 .address-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -77,6 +78,7 @@ ul, ol {
 }
 
 .title {
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -132,6 +134,7 @@ ul, ol {
 }
 
 .our-team-title {
+    text-align: center;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
@@ -143,10 +146,6 @@ ul, ol {
 .our-team-list {}
 
 .our-team-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     background: #fff;
 }
 
@@ -172,6 +171,7 @@ ul, ol {
 .portfolio {}
 
 .portfolio-title {
+    text-align: center;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
